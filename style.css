@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    
+        background-image: url(red.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200;
+        width: 300;
+
+}
+
+header
+{
+    color:rgb(255,254,254);
+background-color:black;
+    height: 50px;
+    text-align: center;
+}
+nav
+{
+    height: 50px;
+background-color:black;
+display: flex;
+justify-content: space-between;
+max-width: 1000px;
+margin: auto;
+}
+#kanchan
+{
+    margin-left: -18rem;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    justify-content: left;
+  
+}
+.centered
+{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    right: 20%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    color:black;
+}
+.abc a{
+    color:hsl(0, 73%, 50%);
+    text-decoration: none;
+    padding: 10px;
+    margin: 18px;
+    transition: all 3s;
+    margin-top: -0.rem;
+
+}
+.abc
+{
+    padding:10px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+}
+.abc a:hover
+{
+    background-color: gray;
+    color: cornsilk;
+}
+div input
+{
+    border-radius: 40px;
+    background-color:aliceblue;
+    padding: 8px;
+    margin: 7px;
+    border-style:dotted;
+}
+.xyz
+{
+    padding: 0.6rem;
+    display: flex;
+margin-left: 20rem;
+
+}
+
